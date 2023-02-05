@@ -23,7 +23,7 @@ object Config : AutoSavePluginConfig("Config") {
     // 设置成功信息
     val successMessage: String by value("设置成功，薇尔莉特将竭诚为您服务")
     // 错误提示
-    val warningMessage: String by value("设置错误，请认真阅读文档")
+    val warningMessage: String by value("设置错误，请认真阅读文档：https://github.com/MrThanlon/mirai-CHPostal#readme")
     // 防止存在多个同步机器人时引发消息风暴，用于识别群中的机器人，目前未使用
     val preventMessageStorm: String by value("\n——CH Postal")
 }
